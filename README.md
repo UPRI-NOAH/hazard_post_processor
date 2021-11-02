@@ -5,7 +5,7 @@
 - Python 3.9
 
 ## Setup
-> pipenv install --dev # install dependencies
+> pipenv install # install dependencies
 
 > pipenv shell # run environment
 
