@@ -33,7 +33,7 @@ def post_processor(output_path):
     Performs dissolving of the hazard shapefiles.
     """
     # Observed variants of hazard attributes
-    haz_cols = ["Var", "VAR", "SS", "GRIDCODE", "LH", "id"]
+    haz_cols = ["Var", "VAR", "SS", "GRIDCODE", "LH"]
 
     for file in shp_files:
         # Gets only the name of the shapefile, will be used as the new filename
