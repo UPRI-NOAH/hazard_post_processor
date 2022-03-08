@@ -32,20 +32,20 @@ The python script is modeled to read multiple input files and produce output fil
 
     e.g. `/Users/localUser/UPRI/HazardDissolver`
 
-3. Insider this base folder path, create a `input` folder and input the following hazard maps inside the `input` folder:
+3. Insider this base folder path, create an `input` folder and input the following hazard maps inside the `input` folder:
     - `input`
         - `Province 1.shp`
         - `Province 2.shp`
         - `Province 3.shp`
 
-All output files will be stored separately in the designated inside the `output` folder. This folder is automatically generated from the script.
+All output files will be stored inside the `output` folder. This folder is automatically generated from the script.
 
 ## Data Processing
-The processing of the hazard maps are the following:
+The data processing of the hazard maps are the following:
 1. The script reads each hazard map inside the `input` folder.
 
-2. The script scans the fields of the hazard map to ensure that it contains the required hazard field attribute (See Data Requirements for the list of acceptable hazard field attributes).
+2. The script scans the field attributes of the hazard map to ensure that it contains the required hazard field attribute (See Data Requirements for the list of acceptable hazard field attributes).
 
 3. Once any of the observed variant of hazard attribute is found, it dissolves the hazard field attribute.
 
-4. The dissolved hazard map is outputted to the `output` folder.
+4. The dissolved hazard map is saved to the `output` folder.
