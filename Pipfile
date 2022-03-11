@@ -25,6 +25,7 @@ six = "==1.16.0"
 Fiona = "==1.8.20"
 GDAL = "==3.3.2"
 Shapely = "==1.7.1"
+pydrive = "*"
 
 [dev-packages]
 pre-commit = "*"
