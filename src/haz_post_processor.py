@@ -70,16 +70,16 @@ def post_processor(output_path):
 
         # Reads the file and dissolves it by hazard attributes
         full_file_path = os.path.join(input_path, file)
-        logging.info("reading " + hazard_name)
+        logging.info(f"reading {hazard_name}")
         read_haz = gpd.read_file(full_file_path)
 
         for haz in haz_cols:
             if haz in read_haz:
-                logging.info("start dissolving for " + hazard_name)
+                logging.info(f"start dissolving for {hazard_name}")
                 read_haz = read_haz.dissolve(by=haz)
                 break
         else:
-            logging.info("no haz col found, skipping dissolving for " + hazard_name)
+            logging.info(f"no haz col found, skipping dissolving for {hazard_name}")
             continue
 
         # Saves the dissolved file to a new file inside the output folder
@@ -87,7 +87,7 @@ def post_processor(output_path):
             os.path.abspath(os.path.join(output_path, hazard_name + "_diss.shp"))
         )
 
-        logging.info("done dissolving for " + hazard_name)
+        logging.info(f"done dissolving for {hazard_name}")
 
         gdrive_upload()
 
