@@ -48,4 +48,4 @@ The data processing of the hazard maps are the following:
 
 3. Once any of the observed variant of hazard attribute is found, it dissolves the hazard field attribute.
 
-4. The dissolved hazard map is saved to the `output` folder and will be upload to the designated google drive. The files in `output` folder will be deleted afterwards.
+4. The dissolved hazard map is saved to the `output` folder and will be uploaded to the designated google drive. The files in `output` folder will be deleted afterwards.
