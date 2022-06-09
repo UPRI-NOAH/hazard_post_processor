@@ -1,0 +1,38 @@
+2022-03-01 17:12:45,922: reading test123
+2022-03-01 17:12:46,007: start dissolving for test123
+2022-03-01 17:12:46,057: done dissolving for test123
+2022-03-01 17:12:46,057: reading test11
+2022-03-01 17:12:46,085: no haz col found, skipping dissolving for test11
+2022-03-12 17:27:43,025: reading test123
+2022-03-12 17:27:43,102: no haz col found, skipping dissolving for test123
+2022-03-12 17:27:43,102: reading test11
+2022-03-12 17:27:43,127: no haz col found, skipping dissolving for test11
+2022-03-12 17:28:28,366: reading test123
+2022-03-12 17:28:28,442: start dissolving for test123
+2022-03-12 17:28:28,502: done dissolving for test123
+2022-03-12 17:28:28,502: reading test11
+2022-03-12 17:28:28,525: no haz col found, skipping dissolving for test11
+2022-03-12 17:30:25,265: reading test123
+2022-03-12 17:30:25,340: no haz col found, skipping dissolving for test123
+2022-03-12 17:30:25,340: no haz col found, skipping dissolving for test123
+2022-03-12 17:30:25,340: no haz col found, skipping dissolving for test123
+2022-03-12 17:30:25,340: no haz col found, skipping dissolving for test123
+2022-03-12 17:30:25,340: no haz col found, skipping dissolving for test123
+2022-03-12 17:30:25,340: start dissolving for test123
+2022-03-12 17:30:25,385: done dissolving for test123
+2022-03-12 17:30:25,385: reading test11
+2022-03-12 17:30:25,408: no haz col found, skipping dissolving for test11
+2022-03-12 17:30:25,408: no haz col found, skipping dissolving for test11
+2022-03-12 17:30:25,408: no haz col found, skipping dissolving for test11
+2022-03-12 17:30:25,408: no haz col found, skipping dissolving for test11
+2022-03-12 17:30:25,408: no haz col found, skipping dissolving for test11
+2022-03-12 17:30:25,408: no haz col found, skipping dissolving for test11
+2022-03-12 17:30:25,419: done dissolving for test11
+2022-03-16 10:52:54,898: reading test123
+2022-03-16 10:52:54,992: start dissolving for test123
+2022-03-16 10:52:55,036: done dissolving for test123
+2022-03-16 10:52:55,036: reading test11
+2022-03-16 10:52:55,058: no haz col found, skipping dissolving for test11
+2022-03-16 10:52:55,058: reading PH126300000_LH_LH3
+2022-03-16 10:53:19,595: start dissolving for PH126300000_LH_LH3
+2022-03-16 14:13:55,363: done dissolving for PH126300000_LH_LH3
